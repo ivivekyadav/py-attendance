@@ -1,0 +1,19 @@
+# Face Recognition Attendance System Requirements
+# Install all dependencies with: pip install -r requirements.txt
+
+# Computer Vision and Image Processing
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+
+# Data Processing and Analysis
+pandas==2.1.4
+numpy==1.24.3
+
+# Additional utilities (if needed for future enhancements)
+Pillow==10.1.0
+
+# Note: face-recognition library is NOT included due to installation issues
+# This system uses OpenCV's built-in face recognition instead
+# If you want to try face-recognition library (optional):
+# face-recognition==1.3.0
+# dlib==19.24.2

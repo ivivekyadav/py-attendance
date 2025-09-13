@@ -1,0 +1,28 @@
+# Sample Data Structure for Face Recognition Attendance System
+
+## users.csv (Registered Users Database)
+Name,Roll,Filename
+John Doe,101,101_John Doe.jpg
+Jane Smith,102,102_Jane Smith.jpg
+Alice Johnson,103,103_Alice Johnson.jpg
+
+## attendance.csv (General Attendance Records)
+Name,Roll,Date,Time
+John Doe,101,2024-01-15,09:30:25
+Jane Smith,102,2024-01-15,09:32:10
+Alice Johnson,103,2024-01-15,09:35:45
+
+## presentuser.csv (Daily Attendance from Automatic System)
+Name,Roll,Date,Time,Status
+John Doe,101,2024-01-15,09:30:25,Present
+Jane Smith,102,2024-01-15,09:32:10,Present
+Alice Johnson,103,2024-01-15,09:35:45,Present
+
+## known_faces/ Directory Structure
+known_faces/
+├── 101_John Doe.jpg
+├── 102_Jane Smith.jpg
+└── 103_Alice Johnson.jpg
+
+Note: Actual user data and face images are excluded from the repository for privacy reasons.
+The system will create these files automatically when you register users and start taking attendance.
